@@ -6,3 +6,11 @@
 *.iml
 out
 gen
+
+# Python version
+.python-version
+.venv
+
+# pip-tools in files
+*.in
+dev-requirements.txt
