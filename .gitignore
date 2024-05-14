@@ -6,6 +6,7 @@
 *.iml
 out
 gen
+.editorconfig
 
 # Python version
 .python-version

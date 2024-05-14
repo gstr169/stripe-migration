@@ -42,7 +42,7 @@ while old_customers:
             continue
 
         # Get the subscription details
-        subscriptions = customer.subscriptions.data
+        subscription = customer.subscriptions.data[0]
 
         price = subscription.plan.id
         plan_end_date = subscription.current_period_end
